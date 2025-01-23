@@ -4,14 +4,14 @@
 
 - Node.js (v18+)
 - PostgreSQL
-- pnpm or npm
+- npmor npm
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:mahatoHariom/event.git
 cd event-management-app
 ```
 
@@ -28,23 +28,23 @@ NEXTAUTH_SECRET="your-secret-key"
 ### 3. Install Dependencies
 
 ```bash
-pnpm install
+npminstall
 ```
 
 ### 4. Database Setup
 
 ```bash
 # Run Prisma migrations
-pnpm prisma migrate dev
+npmprisma migrate dev
 
 # Optional: Seed initial data
-pnpm prisma db seed
+npmprisma db seed
 ```
 
 ### 5. Run Development Server
 
 ```bash
-pnpm dev
+npmdev
 ```
 
 ### 6. Application Features
@@ -65,7 +65,7 @@ pnpm dev
 
 ## Development Commands
 
-- `pnpm dev`: Start development server
-- `pnpm build`: Production build
-- `pnpm start`: Start production server
-- `pnpm prisma`: Prisma CLI commands
+- `npmdev`: Start development server
+- `npmbuild`: Production build
+- `npmstart`: Start production server
+- `npmprisma`: Prisma CLI commands
