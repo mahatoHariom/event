@@ -65,7 +65,7 @@ npm run dev
 
 ## Development Commands
 
-- `npmdev`: Start development server
-- `npmbuild`: Production build
-- `npmstart`: Start production server
-- `npmprisma`: Prisma CLI commands
+- `npm dev`: Start development server
+- `npm build`: Production build
+- `npm start`: Start production server
+- `npm prisma`: Prisma CLI commands
