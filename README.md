@@ -28,23 +28,23 @@ NEXTAUTH_SECRET="your-secret-key"
 ### 3. Install Dependencies
 
 ```bash
-npminstall
+npm install
 ```
 
 ### 4. Database Setup
 
 ```bash
 # Run Prisma migrations
-npmprisma migrate dev
+npm prisma migrate dev
 
 # Optional: Seed initial data
-npmprisma db seed
+npm prisma db seed
 ```
 
 ### 5. Run Development Server
 
 ```bash
-npmdev
+npm run dev
 ```
 
 ### 6. Application Features
